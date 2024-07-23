@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:palegoldenrod;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins',serif;
+}
+img{
+    width: 80px;
+    display: flex;
+    margin: 30px;
+    margin-left: 100px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.box1{
+    width: 280px;
+height: 300px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.box2{
+    margin: 10px;
+    width: 280px;
+    height: 300px;
+    border: 2px solid black;
+}
+.box3{
+    margin: 10px;
+    width: 280px;
+    height: 300px;
+    border: 2px solid black;
+}
+.box1 h1{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 50%;
+}
+.box1 p{
+    margin-top: 10px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.box2 h1{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 50%;
+}
+.box2 p{
+    margin-top: 10px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.box3 h1{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 50%;
+}
+.box3 p{
+    margin-top: 10px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+
+.btn{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+ border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    padding: 10px;
+    
+}
